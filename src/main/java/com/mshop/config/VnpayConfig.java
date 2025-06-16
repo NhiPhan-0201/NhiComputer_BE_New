@@ -5,8 +5,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
 import java.util.Random;
 
-public class
-VnpayConfig {
+public class VnpayConfig {
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
     public static String vnp_Returnurl = "http://localhost:4201/customer";
     public static String vnp_TmnCode = "8LEQ9RXM";
